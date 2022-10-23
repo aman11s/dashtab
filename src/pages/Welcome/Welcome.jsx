@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import "./Welcome.css";
 
 export const Welcome = () => {
@@ -14,7 +15,11 @@ export const Welcome = () => {
             className="input-box fs-md"
             type="text"
           />
-          {name.length > 0 && <button className="submit-btn">Continue</button>}
+          {name.length > 0 && (
+            <button className="submit-btn">
+              Continue <MdOutlineKeyboardArrowRight />
+            </button>
+          )}
         </form>
       </div>
     </>
