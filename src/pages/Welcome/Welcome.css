@@ -1,0 +1,25 @@
+.input-box {
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid var(--text-color);
+  text-align: center;
+  font-family: inherit;
+  color: var(--text-color);
+}
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  margin: 2rem auto;
+  border: none;
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: inherit;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #dddddd;
+}

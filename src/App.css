@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://source.unsplash.com/random/?planet/1920×1080");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: var(--text-color);
+  height: 100vh;
+}
+
+.fs-lg {
+  font-size: 4rem;
+}
+
+.fs-md {
+  font-size: 3rem;
+}
+
+.main-container {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  right: 0;
+  left: 0;
+}
